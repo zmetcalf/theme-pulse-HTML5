@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bundle>
+	<!-- controllers exposed by this Bundle -->
+	<controllers/>
+
+	<!-- the implementations of org.torweg.pulse.site.content.Content exposed by this Bundle -->
+	<content-mappings/>
+
+	<!-- the Joblets of this Bundle -->
+	<joblets/>
+</bundle>
+
