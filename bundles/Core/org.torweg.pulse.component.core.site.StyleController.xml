@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration bean="org.torweg.pulse.component.core.site.StyleControllerConfig">
+   <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+      style/@name has to be unique && 
+      !style/@name == "automatic"
+   -->
+   <styles>
+      <style name="blue" internalName="css/demo-layout.blue.css" default="true"/>
+      <style name="grey" internalName="css/demo-layout.grey.css"/>
+      <style name="HTML5 Theme" internalName="css/main.css"/>
+   </styles>
+</configuration>
