@@ -411,8 +411,8 @@
         <xsl:text>© :torweg free software group</xsl:text>
     </xsl:template>
 
-    <!-- default template being applied if no other template matches 
-    <xsl:template match="*"/>  Removed to facilitate move to import instead of include -->
+    <!-- default template being applied if no other template matches -->
+    <xsl:template match="*"/>   
 
 
 </xsl:stylesheet>
