@@ -412,7 +412,9 @@
     </xsl:template>
 
     <!-- default template being applied if no other template matches -->
-    <xsl:template match="*"/>   
+    <xsl:template match="command"/>
+    <xsl:template match="image"/>
+    <xsl:template match="menuitem"/> 
 
 
 </xsl:stylesheet>
