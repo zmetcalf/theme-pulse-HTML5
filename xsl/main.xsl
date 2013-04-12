@@ -48,6 +48,7 @@
                 <xsl:apply-templates select="self::node()" mode="head.core"/>
                 <xsl:apply-templates select="self::node()" mode="head.shop"/>
                 <xsl:apply-templates select="self::node()" mode="head.statistics"/>
+
             </head>
             <body>
 
@@ -75,11 +76,11 @@
                 <div id="container">
 
                     <!-- header area -->
-                    <div id="headerContainer">
+                    <header>
                         <xsl:apply-templates select="self::node()" mode="header">
                             <xsl:with-param name="core.result" select="$core.result"/>
                         </xsl:apply-templates>
-                    </div>
+                    </header>
 
                     <!-- bread crumb -->
                     <xsl:apply-templates
@@ -102,11 +103,11 @@
                     </div>
 
                     <!-- page footer -->
-                    <div id="footerContainer">
+                    <footer>
                         <xsl:apply-templates select="self::node()" mode="footer">
                             <xsl:with-param name="core.result" select="$core.result"/>
                         </xsl:apply-templates>
-                    </div>
+                    </footer>
 
                 </div>
 
