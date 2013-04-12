@@ -33,7 +33,7 @@ header {
     width: 755px;
 }
 /* side bar */
-#sidebarContainer {
+aside {
     width: 215px;
 }
 /* footer */
@@ -81,10 +81,10 @@ header img.logo {
 }
 /* side bar */
 #searchBoxContainer,
-#sidebarContainer .filterPanelContainer,
-#treeMenuContainer,
-#sidebarContainer .shoppingCartCompactWrapper,
-#sidebarContainer .loginBoxWrapper {
+aside .filterPanelContainer,
+nav,
+aside .shoppingCartCompactWrapper,
+aside .loginBoxWrapper {
     width: 200px;
     margin: 0 0 5px 0;
 }
@@ -92,37 +92,37 @@ header img.logo {
 #sitemapContainer {
     padding: 0 0 0 40%;
 }
-#treeMenuContainer ul,
+nav ul,
 #sitemapContainer ul {
     padding: 0 0 0 2px;
     list-style-type: none;
     float: left;
     clear: left;
 }
-#treeMenuContainer ul {
+nav ul {
     margin: 0;
     width: 100%;
 }
 #sitemapContainer ul.home {
     margin: 0 0 15px 0;
 }
-#treeMenuContainer ul li.link,
+nav ul li.link,
 #sitemapContainer ul li.link {
     line-height: 16px;
     vertical-align: middle;
 }
-#treeMenuContainer ul li.subLevel,
+nav ul li.subLevel,
 #sitemapContainer ul li.subLevel {
     list-style-type: disc !important;
     list-style-position: outside !important;
 }
-#treeMenuContainer ul li.levelWrapper,
+nav ul li.levelWrapper,
 #sitemapContainer ul li.levelWrapper {
     margin: 0;
     padding: 0;
     line-height: 0;
 }
-#treeMenuContainer ul li img,
+nav ul li img,
 #sitemapContainer ul li img {
     margin: 0 3px 0 0;
     vertical-align: bottom;
@@ -153,29 +153,29 @@ header img.logo {
     line-height: 16px;
 }
 /* authentication */
-#sidebarContainer .loginBoxWrapper form input.displayMode,
+aside .loginBoxWrapper form input.displayMode,
 #contentContainer .loginBoxWrapper form input.displayMode {
     width: 195px;
     margin: 0 0 5px 0;
 }
-#sidebarContainer .loginBoxWrapper form div,
+aside .loginBoxWrapper form div,
 #contentContainer .loginBoxWrapper form div {
     text-align: right;
 }
-#sidebarContainer .loginBoxWrapper ul {
+aside .loginBoxWrapper ul {
     margin: 10px 0 10px 5px;
     padding: 0;
     list-style-type: none;
 }
-#sidebarContainer .loginBoxWrapper ul li {
+aside .loginBoxWrapper ul li {
     margin: 0 0 2px 0;
     padding: 0;
 }
-#sidebarContainer .loginBoxWrapper ul li img {
+aside .loginBoxWrapper ul li img {
     margin: 0 3px 0 0;
     vertical-align: bottom;
 }
-#sidebarContainer .loginBoxWrapper a {
+aside .loginBoxWrapper a {
     line-height: 16px;
 }
 /* side bar, filter panel calendar */
@@ -323,12 +323,12 @@ header img.logo {
 /* floating classes */
 .left,
 #contentContainer,
-#sidebarContainer,
+aside,
 #searchBoxContainer,
-#sidebarContainer .filterPanelContainer,
-#treeMenuContainer,
-#sidebarContainer .shoppingCartCompactWrapper,
-#sidebarContainer .loginBoxWrapper {
+aside .filterPanelContainer,
+nav,
+aside .shoppingCartCompactWrapper,
+aside .loginBoxWrapper {
     float: left;
 }
 .right {
@@ -343,10 +343,10 @@ footer {
 header,
 footer,
 #searchBoxContainer,
-#sidebarContainer .filterPanelContainer,
-#treeMenuContainer,
-#sidebarContainer .shoppingCartCompactWrapper,
-#sidebarContainer .loginBoxWrapper,
+aside .filterPanelContainer,
+nav,
+aside .shoppingCartCompactWrapper,
+aside .loginBoxWrapper,
 #advancedSearchContainer,
 #contentContainer .loginBoxWrapper,
 #contentAttachmentsContainer,

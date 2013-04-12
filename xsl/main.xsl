@@ -48,7 +48,6 @@
                 <xsl:apply-templates select="self::node()" mode="head.core"/>
                 <xsl:apply-templates select="self::node()" mode="head.shop"/>
                 <xsl:apply-templates select="self::node()" mode="head.statistics"/>
-
             </head>
             <body>
 
@@ -88,12 +87,12 @@
                         mode="bread.crumb"/>
 
                     <!-- page sidebar -->
-                    <div id="sidebarContainer">
+                    <aside>
                         <xsl:apply-templates select="self::node()" mode="sidebar">
                             <xsl:with-param name="action.result" select="$action.result"/>
                             <xsl:with-param name="core.result" select="$core.result"/>
                         </xsl:apply-templates>
-                    </div>
+                    </aside>
 
                     <!-- content -->
                     <div id="contentContainer">
@@ -412,7 +411,7 @@
         <xsl:text>© :torweg free software group</xsl:text>
     </xsl:template>
 
-    <!-- default template being applied if no other template matches -->
+    <!-- these catch links bleeding on page; add additional as neccessary -->
     <xsl:template match="command"/>
     <xsl:template match="image"/>
     <xsl:template match="menuitem"/> 
