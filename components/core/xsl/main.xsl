@@ -68,10 +68,10 @@
 
         </xsl:if>
 
-        <!-- initialise FilterContentUI 
+        <!-- initialise FilterContentUI -->
         <xsl:apply-templates
             select="result[@bundle='Core']/descendant::result[@class='org.torweg.pulse.component.core.site.content.filter.FilterContentDisplayerResult']"
-            mode="head"/>-->
+            mode="head.core"/>
 
     </xsl:template>
 
